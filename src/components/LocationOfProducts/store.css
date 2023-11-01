@@ -1,0 +1,137 @@
+/*icon*/
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.material-icons {
+  color: #808080;
+  margin-left: 95%;
+  margin-top: 20px;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+/*view-module*/
+.view-module {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/*view-list*/
+.view-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  gap: 3px;
+  margin-top: 20px;
+}
+
+/*card*/
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  box-shadow: 0 5px 10px 1px #808080;
+}
+
+.card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.card-name {
+  text-transform: uppercase;
+}
+
+.card-price {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 195px;
+  padding: 0 20px;
+  color: #ef0000;
+}
+
+.card-btn {
+  padding: 4px 8px;
+  border: 1px solid #ef0000;
+  border-radius: 14px;
+  color: #ef0000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  box-shadow: 1px 1px 4px 1px #808080;
+}
+
+/*item*/
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 343px;
+  width: 100%;
+  gap: 10px;
+  padding: 15px;
+  background-color: #f5f5f5;
+}
+
+.item-img {
+  width: 100px;
+  height: 65px;
+  margin-top: -10px;
+  object-fit: cover;
+}
+
+.item-price {
+  color: #ef0000;
+}
+
+.item-btn {
+  padding: 4px 8px;
+  border: 1px solid #ef0000;
+  border-radius: 14px;
+  min-width: 59px;
+  color: #ef0000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.item-btn:hover {
+  box-shadow: 1px 1px 4px 1px #808080;
+}
+
+@media (max-width: 550px) {
+  .item {
+    padding: 5px;
+  }
+}
