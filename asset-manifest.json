@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra-16-react-state-of-components/static/css/main.9d05c0a3.css",
+    "main.js": "/ra-16-react-state-of-components/static/js/main.e8b59968.js",
+    "static/js/787.fd0f33e0.chunk.js": "/ra-16-react-state-of-components/static/js/787.fd0f33e0.chunk.js",
+    "index.html": "/ra-16-react-state-of-components/index.html",
+    "main.9d05c0a3.css.map": "/ra-16-react-state-of-components/static/css/main.9d05c0a3.css.map",
+    "main.e8b59968.js.map": "/ra-16-react-state-of-components/static/js/main.e8b59968.js.map",
+    "787.fd0f33e0.chunk.js.map": "/ra-16-react-state-of-components/static/js/787.fd0f33e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d05c0a3.css",
+    "static/js/main.e8b59968.js"
+  ]
+}
